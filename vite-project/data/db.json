@@ -1,0 +1,10 @@
+{
+  "blogs": [
+    {
+      "title": "Opening party!",
+      "body": "Whe do we use id? It is a lon established fact that a reader will be destricted",
+      "author": "yoshi",
+      "id": 2
+    }
+  ]
+}
