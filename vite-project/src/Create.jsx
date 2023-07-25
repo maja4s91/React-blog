@@ -12,7 +12,7 @@ const Create = () => {
     e.preventDefault();
     setIspending(true);
     const blog = { title, body, author };
-    fetch("http://localhost:8000/blogs", {
+    fetch("https://test-api-543c.onrender.com/blogs", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),

@@ -8,12 +8,12 @@ const BlogDetails = () => {
     data: blog,
     isPending,
     error,
-  } = useFetch("http://localhost:8000/blogs/" + id);
+  } = useFetch("https://test-api-543c.onrender.com/blogs/" + id);
 
   const navigate = useNavigate();
 
   const handleDelete = () => {
-    fetch("http://localhost:8000/blogs/" + blog.id, { method: "DELETE" }).then(
+    fetch("https://test-api-543c.onrender.com/blogs/" + blog.id, { method: "DELETE" }).then(
       () => {
         navigate("/");
       }
